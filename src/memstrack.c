@@ -99,7 +99,6 @@ void m_exit(int ret) {
 }
 
 static void on_signal(int signal) {
-	log_debug("Exiting on signal %d\n", signal);
 	m_exit(0);
 }
 
